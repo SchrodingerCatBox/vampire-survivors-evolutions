@@ -1,6 +1,6 @@
 const imageMap = {
-'Acerbatus': './images/acerbatus.webp',
-'Alchemy Whip': './images/alchemy_whip.webp',
+'Acerbatus': '../images/acerbatus.webp',
+'Alchemy Whip': '../images/alchemy_whip.webp',
 'Alucard Shield': './images/alucard_shield.webp',
 'Alucard Spear': './images/alucard_spear.webp',
 'Alucard Swords': './images/alucard_swords.webp',
