@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: hsla(0, 65%, 21%, 0.80) ;
+  background-image: url('/images/background.jpg');
+  background-blend-mode: multiply;
+}
+
+#equations {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.equation {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* Style for images with a border */
+.equation img {
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  border: 2px solid #ce8b34; /* Customize border color and width */
+  border-radius: 5px; /* Optional: round the corners */
+}
+
+/* Style for symbols */
+.symbol {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ce8b34; /* Customize color */
+  margin: 0 7px;
+}
