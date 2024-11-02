@@ -9,9 +9,31 @@ body {
 }
 
 #equations {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 15px;
+  column-gap: 40px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  #equations {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #equations {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  #equations {
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: start;
+  }
 }
 
 .equation {
@@ -20,19 +42,17 @@ body {
   font-size: 20px;
 }
 
-/* Style for images with a border */
 .equation img {
   width: 32px;
   height: 32px;
   padding: 3px;
-  border: 2px solid #ce8b34; /* Customize border color and width */
-  border-radius: 5px; /* Optional: round the corners */
+  border: 2px solid #ce8b34;
+  border-radius: 5px;
 }
 
-/* Style for symbols */
 .symbol {
   font-weight: bold;
   font-size: 20px;
-  color: #ce8b34; /* Customize color */
+  color: #ce8b34;
   margin: 0 7px;
 }

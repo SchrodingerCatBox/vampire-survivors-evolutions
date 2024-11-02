@@ -2,6 +2,10 @@ function createEquationElement(equation) {
   const equationContainer = document.createElement('div');
   equationContainer.className = 'equation';
 
+  if (equation === 'Alucart Sworb = Alucard Swords = Alucard Shield') {
+    equationContainer.title = "Need 6 maxed passives and weapons.";
+  }
+
   const parts = equation.match(/[^+\s=]+(?: ['\w]+)*|[+=]/g);
 
   parts.forEach(part => {
