@@ -229,4 +229,12 @@ const imageMap = {
 'Wings': 'images/wings.webp',
 'Wrecking Ball': 'images/wrecking_ball.webp',
 'Yagyu Shuriken': 'images/yagyu_shuriken.webp',
+'Dominus Agony': 'images/dominus_agony.webp',
+'Dominus Anger': 'images/dominus_anger.webp',
+'Dominus Hatred': 'images/dominus_hatred.webp',
+'Centralis Custos': 'images/centralis_custos.webp',
+'Dextro Custos': 'images/dextro_custos.webp',
+'Sinestro Custos': 'images/sinestro_custos.webp',
+'Trinum Custodem': 'images/trinum_custodem.webp',
+'Power of Sire': 'images/power_of_sire.webp',
 };

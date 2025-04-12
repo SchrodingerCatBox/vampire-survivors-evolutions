@@ -89,6 +89,8 @@ const evolutions = [
   "Confodere = Vol Confodere = Melio Confodere",
   "Globus + Empty Tome = Nitesco",
   "Optical Shot + Karoma's Mana = Acerbatus",
+  "Centralis Custos + Dextro Custos + Sinestro Custos = Trinum Custodem",
+  "Dominus Agony + Dominus Anger + Dominus Hatred = Power of Sire",
   "Sonic Dash + Wings = Rapidus Fio",
   "Luminatio + Crown = Vol Luminatio",
   "Umbra + Attractorb = Vol Umbra",
