@@ -6,7 +6,8 @@ function createEquationElement(equation) {
     equationContainer.title = "Need 6 maxed passives and weapons.";
   }
 
-  const parts = equation.match(/[^+\s=]+(?: ['\w]+)*|[+=]/g);
+  const parts = equation.match(/[^+=→]+|[+=→]/g).map(part => part.trim()).filter(Boolean);
+
 
   parts.forEach(part => {
     part = part.trim();
@@ -21,7 +22,7 @@ function createEquationElement(equation) {
       symbol.className = 'symbol';
       symbol.textContent = part;
       equationContainer.appendChild(symbol);
-    }
+    }  
   });
 
   return equationContainer;
