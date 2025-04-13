@@ -28,12 +28,24 @@ function createEquationElement(equation) {
   return equationContainer;
 }
 
-function renderEquations() {
+function renderEquationsWithStyle(equations, styleClass) {
   const equationsContainer = document.getElementById('equations');
-  evolutions.forEach(equation => {
+  equations.forEach(equation => {
     const equationElement = createEquationElement(equation);
+    equationElement.classList.add(styleClass);
     equationsContainer.appendChild(equationElement);
   });
+}
+
+
+function renderEquations() {
+  renderEquationsWithStyle(base_game, 'base_game');
+  renderEquationsWithStyle(legacy_of_the_moonspell, 'dlc_legacy_of_the_moonspell');
+  renderEquationsWithStyle(tides_of_the_foscari, 'dlc_tides_of_the_foscari');
+  renderEquationsWithStyle(emergency_meeting, 'dlc_emergency_meeting');
+  renderEquationsWithStyle(operation_guns, 'dlc_operation_guns');
+  renderEquationsWithStyle(ode_to_castlevania, 'dlc_ode_to_castlevania');
+  renderEquationsWithStyle(emerald_diorama, 'dlc_emerald_diorama');
 }
 
 renderEquations();

@@ -1,4 +1,4 @@
-const evolutions = [
+const base_game = [
   "Whip + Hollow Heart = Bloody Tear",
   "Magic Wand + Empty Tome = Holy Wand",
   "Knife + Bracer = Thousand Edge",
@@ -26,24 +26,36 @@ const evolutions = [
   "Peachone + Ebony Wings = Vandalier",
   "Vento Sacro + Bloody Tear = Fuwalafuwaloo",
   "Victory Sword + Torrona's Box = Sole Solution",
+];
+
+  const legacy_of_the_moonspell = [
   "Silver Wind + Pummarola = Festive Winds",
   "Four Seasons + Candelabrador = Godai Shuffle",
   "Summon Night + Duplicator = Echo Night",
   "Mirage Robe + Attractorb = J'Odore",
   "Night Sword + Stone Mask = Muramasa",
-  "Mille Bolle Blu + Spellbinder = Boo Roo Boolle",
+  "Mille Bolle Blu + Spellbinder = Boo Roo Boolle"
+  ];
+
+  const tides_of_the_foscari = [
   "SpellString + SpellStream + SpellStrike = SpellStrom",
   "Eskizzibur + Armor = Legionnaire",
   "Flash Arrow + Bracer = Millionaire",
   "Prismatic Missile + Crown = Luminaire",
-  "Shadow Servant + Skull O'Maniac = Ophion",
+  "Shadow Servant + Skull O'Maniac = Ophion"
+  ];
+
+  const emergency_meeting = [
   "Report! + Mini Crewmate = Emergency Meeting",
   "Lucky Swipe + Mini Engineer = Crossed Wires",
   "Lifesign Scan + Mini Ghost = Paranormal Scan",
   "Just Vent + Mini Shapeshifter = Unjust Ejection",
   "Clear Debris + Mini Guardian = Clear Asteroids",
   "Sharp Tongue + Mini Impostor = Impostongue",
-  "Science Rocks + Mini Scientist = Rocket Science",
+  "Science Rocks + Mini Scientist = Rocket Science"
+  ];
+
+  const operation_guns = [
   "Long Gun + Weapon-Power-Up = Prototype A",
   "Short Gun + Weapon-Power-Up + Bracer = Prototype B",
   "Spread Shot + Weapon-Power-Up + Empty Tome = Prototype C",
@@ -54,7 +66,10 @@ const evolutions = [
   "Diver Mines + Weapon-Power-Up + Attractorb = Atmo-Torpedo",
   "Blade Crossbow + Weapon-Power-Up + Clover = BFC2000-AD",
   "Prism Lass + Weapon-Power-Up + Wings = Time Warp",
-  "Metal Claw + Weapon-Power-Up + Hollow Heart = Big Fuzzy Fist",
+  "Metal Claw + Weapon-Power-Up + Hollow Heart = Big Fuzzy Fist"
+  ];
+
+  const ode_to_castlevania = [
   "Alchemy Whip + Tirajisú = Vampire Killer",
   "Wind Whip + Crown = Spirit Tornado Tip",
   "Platinum Whip + Clover = Cross Crasher Tip",
@@ -96,6 +111,9 @@ const evolutions = [
   "Umbra + Attractorb = Vol Umbra",
   "Vol Luminatio + Vol Umbra = Universitas",
   "Endo Gears + Peri Pendulum + Myo Lift + Epi Head = Clock Tower",
+];
+
+const emerald_diorama = [
   "Fleuret → Dress Sword → Espada Ropera",
   "Super Missile → Hydra Cannon → Hyperion Bazooka",
   "Punch → Pressure Point → Gilded Hand",

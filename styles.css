@@ -56,3 +56,52 @@ body {
   color: #ce8b34;
   margin: 0 7px;
 }
+
+.base_game {
+  background-color: rgba(187, 56, 23, 0.2);
+  border: 2px solid rgba(141, 52, 0, 0.4);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dlc_legacy_of_the_moonspell {
+  background-color: rgba(149, 5, 185, 0.2);
+  border: 2px solid rgba(225, 0, 255, 0.4);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dlc_tides_of_the_foscari {
+  background-color: rgba(6, 142, 206, 0.2);
+  border: 2px solid rgba(0, 204, 255, 0.4);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dlc_emergency_meeting {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dlc_operation_guns {
+  background-color: rgba(90, 86, 86, 0.2);
+  border: 2px solid rgba(46, 46, 46, 0.4);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dlc_ode_to_castlevania {
+  background-color: rgba(146, 94, 16, 0.2);
+  border: 2px solid rgba(255, 174, 0, 0.4);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dlc_emerald_diorama {
+  background-color: rgba(0, 128, 0, 0.2);
+  border: 2px solid rgba(0, 128, 0, 0.4);
+  border-radius: 8px;
+  padding: 5px 10px;
+}
